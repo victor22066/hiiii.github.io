@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        #output {
+            margin-top: 20px;
+            display: none;
+            text-align: center;
+        }
+        #output img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>hi japinha</h1>
+    <input type="text" id="commandInput" placeholder="oi","oii","oiii">
+    <button onclick="executeCommand()">Executar</button>
+    <div id="output"></div>
+    <script src="script.js"></script>
+</body>
+</html>
